@@ -1,0 +1,11 @@
+NAME="lbzip2"
+VERSION=2.5
+RELEASE=1
+CATEGORY="Archive"
+SUMMARY="Parallel bzip2 de/compression utility"
+DESCRIPTION="lbzip2 is a free, multi-threaded compression utility with support
+for bzip2 compressed file format. lbzip2 can process standard bz2 files in
+parallel. It uses POSIX threading model (pthreads), which allows it to take
+full advantage of symmetric multiprocessing (SMP) systems."
+HOMEPAGE="http://lbzip2.org/"
+SRC_URI="http://archive.lbzip2.org/lbzip2-${VERSION}.tar.gz"
